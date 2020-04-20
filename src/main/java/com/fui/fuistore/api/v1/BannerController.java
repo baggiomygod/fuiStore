@@ -24,6 +24,7 @@ public class BannerController {
 //    public BannerController(Diana diana){
 //        this.diana = diana;
 //    }
+
     // 属性方式注入（不推荐）
     @Autowired // bytype 模式注入方式，byname
     private ISkill iSkill;
@@ -32,11 +33,11 @@ public class BannerController {
 //    private ISkill camile;
 
     // host:port/v1/banner
-    @GetMapping("/test")
-    public void test(HttpServletResponse response) throws Exception {
+    @GetMapping("/test/{id}")
+    public void test(@PathVariable Integer id, @RequestParam String name) throws Exception {
         iSkill.r(); // 直接使用
 
-
+        System.out.println("id:" + id + "name:" + name);
 //        throw new NotFoundException(10001);
 //        throw new Exception("test error 测试");
         // 抛出已知异常
