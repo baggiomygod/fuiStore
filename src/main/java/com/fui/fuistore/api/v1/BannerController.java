@@ -1,5 +1,6 @@
 package com.fui.fuistore.api.v1;
 
+import com.fui.fuistore.dto.PersonDTO;
 import com.fui.fuistore.exception.http.ForbiddenException;
 import com.fui.fuistore.exception.http.NotFoundException;
 import com.fui.fuistore.sample.ISkill;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Map;
 // 注解，把某个类或方法打上标记
 //@Controller
 //@ResponseBody
@@ -44,9 +46,16 @@ public class BannerController {
         throw new ForbiddenException(10002);
     }
 
-    @GetMapping("/test2")
-    public String test2()  {
-        return "hello world 222!";
+    @PostMapping("/test2")
+    public PersonDTO test2(@RequestBody PersonDTO person)  {
+        PersonDTO dto = new PersonDTO();
+        dto.setName("wf");
+        dto.setAge(12);
+//        PersonDTO dto = PersonDTO.builder()
+//                                .name("wf")
+//                                .age(12)
+//                                .build();
+        return dto;
     }
 
     @PostMapping("/test3")
