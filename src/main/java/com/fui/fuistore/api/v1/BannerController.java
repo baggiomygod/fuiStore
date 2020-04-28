@@ -5,9 +5,11 @@ import com.fui.fuistore.exception.http.ForbiddenException;
 import com.fui.fuistore.exception.http.NotFoundException;
 import com.fui.fuistore.sample.ISkill;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.constraints.Max;
 import java.io.IOException;
 import java.util.Map;
 // 注解，把某个类或方法打上标记
@@ -36,7 +38,8 @@ public class BannerController {
 
     // host:port/v1/banner
     @GetMapping("/test/{id}")
-    public void test(@PathVariable Integer id, @RequestParam String name) throws Exception {
+    @Validated
+    public void test(@PathVariable @Max(value = 10, message = "不可大于10") Integer id, @RequestParam String name) throws Exception {
         iSkill.r(); // 直接使用
 
         System.out.println("id:" + id + "name:" + name);
@@ -47,10 +50,11 @@ public class BannerController {
     }
 
     @PostMapping("/test2")
-    public PersonDTO test2(@RequestBody PersonDTO person)  {
+    public PersonDTO test2(@RequestBody @Validated PersonDTO person)  {
         PersonDTO dto = new PersonDTO();
         dto.setName("wf");
         dto.setAge(12);
+        System.out.println(person.getSchoolDTO() + "-----" + person.getName() + "," + person.getAge());
 //        PersonDTO dto = PersonDTO.builder()
 //                                .name("wf")
 //                                .age(12)
