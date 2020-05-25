@@ -3,6 +3,7 @@ package com.fui.fuistore.dto;
 // 接收前端请求test2参数的 类
 // 数据传输对象
 
+import com.fui.fuistore.validators.PasswordEqual;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.lang.NonNull;
 
@@ -39,6 +40,7 @@ import javax.validation.Valid;
 ////    }
 //}
 
+@PasswordEqual(message="密码不匹配！", max = 8) // 使用自定义注解
 public class PersonDTO {
 
 
@@ -47,8 +49,10 @@ public class PersonDTO {
     private String name;
     private Integer age;
 
+    private static String password1;
+    private static String password2;
 
-
+    // 级联校验使用valid
     @Valid
     private SchoolDTO schoolDTO;
     // 构造函数 用
@@ -64,19 +68,40 @@ public class PersonDTO {
     public String getName() {
         return name;
     }
-
     public Integer getAge() {
         return age;
+    }
+    public static String getStaticPassword1() {
+        return password1;
+    }
+
+    public static String getStaticPassword2() {
+        return password2;
+    }
+    public void setName(@NonNull String name) {
+        this.name = name;
+    }
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public SchoolDTO getSchoolDTO() {
         return schoolDTO;
     }
-    public void setName(@NonNull String name) {
-        this.name = name;
+
+    public void setPassword1(@NonNull String psw) {
+        this.password1 = psw;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setPassword2(@NonNull String psw) {
+        this.password2 = psw;
+    }
+
+    public String getPassword1() {
+        return password1;
+    }
+
+    public String getPassword2() {
+        return password2;
     }
 }

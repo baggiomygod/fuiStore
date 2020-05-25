@@ -50,11 +50,14 @@ public class BannerController {
     }
 
     @PostMapping("/test2")
-    public PersonDTO test2(@RequestBody @Validated PersonDTO person)  {
+    public PersonDTO test2(@RequestBody @Validated PersonDTO person)  { // @Validated开启校验
         PersonDTO dto = new PersonDTO();
-        dto.setName("wf");
-        dto.setAge(12);
-        System.out.println(person.getSchoolDTO() + "-----" + person.getName() + "," + person.getAge());
+        System.out.println("dto:" + person);
+        dto.setName(person.getName());
+        dto.setAge(person.getAge());
+        dto.setPassword1(person.getPassword1());
+        dto.setPassword2(person.getPassword2());
+        System.out.println(person.getSchoolDTO() + "-----" + person.getName() + "," + person.getAge() + "," + person.getPassword1() + "," + person.getPassword1());
 //        PersonDTO dto = PersonDTO.builder()
 //                                .name("wf")
 //                                .age(12)
