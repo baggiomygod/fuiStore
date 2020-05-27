@@ -40,7 +40,7 @@ import javax.validation.Valid;
 ////    }
 //}
 
-@PasswordEqual(message="密码不匹配！", max = 8) // 使用自定义注解
+@PasswordEqual(message="密码不符合规则！", max = 8) // 使用自定义注解
 public class PersonDTO {
 
 

@@ -4,6 +4,8 @@ import com.fui.fuistore.dto.PersonDTO;
 import com.fui.fuistore.exception.http.ForbiddenException;
 import com.fui.fuistore.exception.http.NotFoundException;
 import com.fui.fuistore.sample.ISkill;
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.Range;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -39,18 +41,25 @@ public class BannerController {
     // host:port/v1/banner
     @GetMapping("/test/{id}")
     @Validated
-    public void test(@PathVariable @Max(value = 10, message = "不可大于10") Integer id, @RequestParam String name) throws Exception {
+    public void test(
+            @PathVariable @Range(min = 1, max = 10, message = "id不可大于10") Integer id,
+            @RequestParam String name) throws Exception {
         iSkill.r(); // 直接使用
-
-        System.out.println("id:" + id + "name:" + name);
+        System.out.println("id:" + id + "---name:" + name);
 //        throw new NotFoundException(10001);
 //        throw new Exception("test error 测试");
         // 抛出已知异常
-        throw new ForbiddenException(10002);
+//        throw new ForbiddenException(10002);
     }
 
-    @PostMapping("/test2")
-    public PersonDTO test2(@RequestBody @Validated PersonDTO person)  { // @Validated开启校验
+    @PostMapping("/test2/{id}") // url上参数异常代码如何写
+    @Validated
+    public PersonDTO test2(
+            @PathVariable @Range(min = 1, max = 10, message = "id不可大于10") Integer id,
+            @RequestParam @Length(min=3, message="name长度必须大于3") String name,
+            @RequestBody @Validated PersonDTO person
+        )  { // @Validated开启校验
+        System.out.println("id:" + id + "name:" + name);
         PersonDTO dto = new PersonDTO();
         System.out.println("dto:" + person);
         dto.setName(person.getName());

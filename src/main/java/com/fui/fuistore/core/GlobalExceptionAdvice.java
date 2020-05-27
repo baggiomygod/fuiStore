@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Constraint;
+import javax.validation.ConstraintViolation;
+import javax.validation.ConstraintViolationException;
 import java.util.List;
 
 @ControllerAdvice
@@ -32,7 +35,6 @@ public class GlobalExceptionAdvice {
     public UnifyResponse handleException(HttpServletRequest req, Exception e){
         String requestUrl = req.getRequestURI(); // 获取请求的url
         String method = req.getMethod();
-        System.out.println(e);
         UnifyResponse message = new UnifyResponse(9999, "服务器异常", method + ":" + requestUrl);
         return message;
     }
@@ -54,7 +56,9 @@ public class GlobalExceptionAdvice {
     }
 
     // 处理Bean相关异常
+    // 校验参数不符合规则的错误
     @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseBody
     @ResponseStatus(code = HttpStatus.BAD_REQUEST) // 参数错误400
     public UnifyResponse handleBeanValidation(HttpServletRequest req,  MethodArgumentNotValidException e){
         String requestUrl = req.getRequestURI();
@@ -63,7 +67,22 @@ public class GlobalExceptionAdvice {
         // 获取错误 List<ObjectError>
         List<ObjectError> errors = e.getBindingResult().getAllErrors();
         String messages = this.formatAllErrorMessage(errors);
-        return new UnifyResponse(10001, messages,method + ":" + requestUrl);
+        UnifyResponse message = new UnifyResponse(10001, messages,method + ":" + requestUrl);
+        return message;
+    }
+
+    // TODO 错误没有进到这?
+    @ExceptionHandler(ConstraintViolationException.class) // 指定处理这个异常
+    @ResponseStatus(code = HttpStatus.BAD_REQUEST) // 参数错误400
+    public UnifyResponse handleConstrainException(HttpServletRequest req, ConstraintViolationException e) {
+        String requestUrl = req.getRequestURI();
+        String method = req.getMethod();
+        String msg = e.getMessage();
+        UnifyResponse message = new UnifyResponse(10001, msg, method + ":" + requestUrl);
+//        for(ConstraintViolation error: e.getConstraintViolations()) {
+//            ConstraintViolation a = error;
+//        }
+        return message;
     }
 
 //    拼接错误提示
