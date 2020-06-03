@@ -4,6 +4,7 @@ import com.fui.fuistore.dto.PersonDTO;
 import com.fui.fuistore.exception.http.ForbiddenException;
 import com.fui.fuistore.exception.http.NotFoundException;
 import com.fui.fuistore.sample.ISkill;
+import com.sun.istack.internal.NotNull;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.Range;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,7 +44,7 @@ public class BannerController {
     @Validated
     public void test(
             @PathVariable @Range(min = 1, max = 10, message = "id不可大于10") Integer id,
-            @RequestParam String name) throws Exception {
+            @RequestParam @Length(min = 3, max = 10, message="name长度不符合规则")String name) throws Exception {
         iSkill.r(); // 直接使用
         System.out.println("id:" + id + "---name:" + name);
 //        throw new NotFoundException(10001);
@@ -55,11 +56,11 @@ public class BannerController {
     @PostMapping("/test2/{id}") // url上参数异常代码如何写
     @Validated
     public PersonDTO test2(
-            @PathVariable @Range(min = 1, max = 10, message = "id不可大于10") Integer id,
-            @RequestParam @Length(min=3, message="name长度必须大于3") String name,
+            @PathVariable @Range(min = 2, max = 10, message = "id不可大于10") Integer id,
+            @RequestParam @Length(min = 2, max = 4, message = "验证字符串长度是否在给定范围内") String pid, // url参数 ？name=xxx, TODO  如何加上参数校验？
             @RequestBody @Validated PersonDTO person
         )  { // @Validated开启校验
-        System.out.println("id:" + id + "name:" + name);
+        System.out.println("id:" + id + ";pid:" + pid);
         PersonDTO dto = new PersonDTO();
         System.out.println("dto:" + person);
         dto.setName(person.getName());

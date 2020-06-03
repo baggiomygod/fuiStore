@@ -6,10 +6,18 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 
 import java.lang.reflect.Method;
 
+/*
+    aweek 12-2-8
+* 处理打上@RequestMapping("/banner")注解的控制器
+ * */
 
+// AutoPrefixUrlMapping自动补全url前缀,
+// AutoPrefixConfiguration中实现注入
 public class AutoPrefixUrlMapping extends RequestMappingHandlerMapping {
     @Value("${fuistore.api-package}") // 读取配置
     private String apiPackagePath;
+    private String prefix;
+
     @Override
     protected RequestMappingInfo getMappingForMethod(Method method, Class<?> handlerType) {
         RequestMappingInfo mappingInfo = super.getMappingForMethod(method, handlerType);
@@ -22,7 +30,7 @@ public class AutoPrefixUrlMapping extends RequestMappingHandlerMapping {
         return mappingInfo;
     }
     private String getPrefix(Class<?> handlerType) {
-        String packageName = handlerType.getPackageName(); // 读取packageName
+        String packageName = handlerType.getPackage().getName(); // 读取packageName
         String dotPath = packageName.replaceAll(this.apiPackagePath, ""); // com.fui.fuistore.api.v1 --替换为--> "v1"
         return dotPath.replace(".", "/");
     }
