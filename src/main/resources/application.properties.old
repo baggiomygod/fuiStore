@@ -1,0 +1,12 @@
+##\u914D\u7F6E\u7CFB\u7EDF \u7684\u914D\u7F6E\u9879 Spring Boot \u9ED8\u8BA4\u7684\u914D\u7F6E
+#
+#server.port = 8088
+#mysql.port = 3307
+#mysql.ip = 127.0.0.1
+#
+#hero.condition = diana
+#
+##fuistore:
+##    api-package= com.fui.fuistore.api
+#
+#fuistore.api-package = com.fui.fuistore.api
