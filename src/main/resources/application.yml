@@ -1,7 +1,9 @@
-server:
-  port: 8088
-mysql:
-  port: 3307
-  ip: 127.0.0.1
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none # update 模型更改不会更新， none create-drop
+
 fuistore:
   api-package: com.fui.fuistore.api

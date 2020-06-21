@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  datasource:  # 腾讯云mysql
+    url: jdbc:mysql://cdb-5g7ihehy.cd.tencentcdb.com:10051/fuistore?characterEncoding=utf-8&serverTimezone=GMT%2B8&&useSSL=true
+    username: root
+    password: rbaggio10
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true # 开发环境控制台打印sql语句
+        format_sql: true
+        ddl-auto: create-drop # update 模型更改不会更新， none create-drop

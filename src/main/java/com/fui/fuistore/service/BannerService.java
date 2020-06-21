@@ -1,7 +1,7 @@
 package com.fui.fuistore.service;
 
-import org.springframework.stereotype.Service;
+import com.fui.fuistore.model.Banner;
 
 public interface BannerService {
-    void getByName(String name);
+    Banner getByName(String name);
 }
