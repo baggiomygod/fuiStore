@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.executable.ValidateOnExecution;
-
 @RestController // 相当于@Controller + @ResponseBody
 @RequestMapping("/banner") // core.configuration.AutoPrefixConfiguration + hack.AutoPrefixUrlMapping 实现读取prefix，
 @Validated
@@ -20,6 +18,15 @@ public class BannerController {
     @GetMapping("/name/{name}")
     public Banner getName(@PathVariable String name) {
         Banner banner = bannerService.getByName(name);
+        if(banner == null) {
+            throw new NotFoundException(30005);
+        }
+        return banner;
+    }
+
+    @GetMapping("/banner_id/{id}")
+    public Banner getName(@PathVariable Long id) {
+        Banner banner = bannerService.getById(id);
         if(banner == null) {
             throw new NotFoundException(30005);
         }
