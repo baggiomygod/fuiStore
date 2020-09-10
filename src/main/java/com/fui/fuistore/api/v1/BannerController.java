@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController // 相当于@Controller + @ResponseBody
 @RequestMapping("/banner") // core.configuration.AutoPrefixConfiguration + hack.AutoPrefixUrlMapping 实现读取prefix，
-@Validated
+@Validated // 用于校验数据
 public class BannerController {
     @Autowired // 注入Service
     private BannerService bannerService;
