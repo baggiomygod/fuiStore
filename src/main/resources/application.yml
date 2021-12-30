@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none # update 模型更改不会更新， none create-drop
+  jackson:
+    property-naming-strategy: SNAKE_CASE # 返回数据key 为下划线形式
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true # 设置返回时间格式
+fuistore:
+  api-package: com.fui.fuistore.api

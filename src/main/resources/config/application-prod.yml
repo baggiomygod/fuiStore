@@ -1,0 +1,5 @@
+server:
+  port: 8088
+mysql:
+  port: 3307
+  ip: 127.0.0.1

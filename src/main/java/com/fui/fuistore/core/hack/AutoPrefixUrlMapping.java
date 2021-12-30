@@ -7,7 +7,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 import java.lang.reflect.Method;
 
 /*
-    aweek 12-2-8
+    week 12-2-8
 * 处理打上@RequestMapping("/banner")注解的控制器
  * */
 
