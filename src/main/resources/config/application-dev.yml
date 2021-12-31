@@ -11,3 +11,6 @@ spring:
         show_sql: true # 开发环境控制台打印sql语句
         format_sql: true
         ddl-auto: create # update 模型更改不会更新， none: 不通过模型创建表， create-drop： 通过model创建表
+
+fuistore:
+  api-package: com.dui.fuistore.api

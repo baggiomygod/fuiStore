@@ -1,8 +1,8 @@
 ##\u914D\u7F6E\u7CFB\u7EDF \u7684\u914D\u7F6E\u9879 Spring Boot \u9ED8\u8BA4\u7684\u914D\u7F6E
 #
 #server.port = 8088
-#mysql.port = 3307
-#mysql.ip = 127.0.0.1
+#mysql.port = 3306
+#mysql.ip = rm-bp1kqfk1r947048v79o.mysql.rds.aliyuncs.com/fui_store?useSSL=false&characterEncoding=utf-8&serverTimezone=GMT%2B8
 #
 #hero.condition = diana
 #
