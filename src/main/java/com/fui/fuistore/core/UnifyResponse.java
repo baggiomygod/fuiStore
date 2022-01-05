@@ -10,15 +10,15 @@ public class UnifyResponse {
     private String message;
     private String request;
 
-    public int getCode(){
+    public int getCode() {
         return code;
     }
 
-    public String getMessage(){
+    public String getMessage() {
         return message;
     }
 
-    public String getRequest(){
+    public String getRequest() {
         return request;
     }
 

@@ -5,19 +5,23 @@ import org.springframework.stereotype.Component;
 
 //@Component
 public class Irelia implements ISkill {
-    public Irelia(){
+    public Irelia() {
         System.out.println("Irelia...");
     }
-    public void q(){
+
+    public void q() {
         System.out.println("Irelia Q");
     }
-    public void w(){
+
+    public void w() {
         System.out.println("Irelia W");
     }
-    public void e(){
+
+    public void e() {
         System.out.println("Irelia E");
     }
-    public void r(){
+
+    public void r() {
         System.out.println("Irelia R");
     }
 }

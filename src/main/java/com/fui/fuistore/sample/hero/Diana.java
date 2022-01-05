@@ -10,21 +10,26 @@ public class Diana implements ISkill {
     private String skillName = "Diana R";
     private String name;
     private Integer age;
-    public Diana(String name, Integer age){
+
+    public Diana(String name, Integer age) {
         this.name = name;
         this.age = age;
         System.out.println("Diana...");
     }
-    public void q(){
+
+    public void q() {
         System.out.println("Diana Q");
     }
-    public void w(){
+
+    public void w() {
         System.out.println("Diana W");
     }
-    public void e(){
+
+    public void e() {
         System.out.println("Diana E");
     }
-    public void r(){
+
+    public void r() {
         System.out.println("Diana R");
     }
 }

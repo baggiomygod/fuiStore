@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ThemeController {
 
     @GetMapping("/by/names")
-    public String getThemeGroupByNames(@RequestParam(name = "names") String names){
+    public String getThemeGroupByNames(@RequestParam(name = "names") String names) {
         System.out.println(names);
         return "sss";
     }

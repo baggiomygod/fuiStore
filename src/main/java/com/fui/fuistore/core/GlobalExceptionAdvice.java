@@ -29,10 +29,10 @@ public class GlobalExceptionAdvice {
     private ExceptionCodeConfiguration codeConfiguration = new ExceptionCodeConfiguration();
 
     // 处理未知异常
-    @ExceptionHandler(value=Exception.class)
+    @ExceptionHandler(value = Exception.class)
     @ResponseBody
-    @ResponseStatus(code= HttpStatus.INTERNAL_SERVER_ERROR)
-    public UnifyResponse handleException(HttpServletRequest req, Exception e){
+    @ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
+    public UnifyResponse handleException(HttpServletRequest req, Exception e) {
         String requestUrl = req.getRequestURI(); // 获取请求的url
         String method = req.getMethod();
         UnifyResponse message = new UnifyResponse(9999, "服务器异常", method + ":" + requestUrl);
@@ -60,14 +60,14 @@ public class GlobalExceptionAdvice {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseBody
     @ResponseStatus(code = HttpStatus.BAD_REQUEST) // 参数错误400
-    public UnifyResponse handleBeanValidation(HttpServletRequest req,  MethodArgumentNotValidException e){
+    public UnifyResponse handleBeanValidation(HttpServletRequest req, MethodArgumentNotValidException e) {
         String requestUrl = req.getRequestURI();
         String method = req.getMethod();
 
         // 获取错误 List<ObjectError>
         List<ObjectError> errors = e.getBindingResult().getAllErrors();
         String messages = this.formatAllErrorMessage(errors);
-        UnifyResponse message = new UnifyResponse(10001, messages,method + ":" + requestUrl);
+        UnifyResponse message = new UnifyResponse(10001, messages, method + ":" + requestUrl);
         return message;
     }
 
@@ -85,13 +85,13 @@ public class GlobalExceptionAdvice {
         return message;
     }
 
-//    拼接错误提示
+    //    拼接错误提示
     private String formatAllErrorMessage(List<ObjectError> errors) {
         StringBuffer errorMsg = new StringBuffer();
         errors.forEach(
                 error ->
-                    errorMsg.append(error.getDefaultMessage()).append(";")
-                );
+                        errorMsg.append(error.getDefaultMessage()).append(";")
+        );
         return errorMsg.toString();
     }
 }

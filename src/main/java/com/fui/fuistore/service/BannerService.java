@@ -4,5 +4,6 @@ import com.fui.fuistore.model.Banner;
 
 public interface BannerService {
     Banner getByName(String name);
+
     Banner getById(Long id);
 }

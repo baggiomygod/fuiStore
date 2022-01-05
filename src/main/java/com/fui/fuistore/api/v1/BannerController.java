@@ -18,7 +18,7 @@ public class BannerController {
     @GetMapping("/name/{name}")
     public Banner getName(@PathVariable String name) {
         Banner banner = bannerService.getByName(name);
-        if(banner == null) {
+        if (banner == null) {
             throw new NotFoundException(30005);
         }
         return banner;
@@ -27,7 +27,7 @@ public class BannerController {
     @GetMapping("/banner_id/{id}")
     public Banner getName(@PathVariable Long id) {
         Banner banner = bannerService.getById(id);
-        if(banner == null) {
+        if (banner == null) {
             throw new NotFoundException(30005);
         }
         return banner;

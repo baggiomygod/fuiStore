@@ -29,6 +29,7 @@ public class AutoPrefixUrlMapping extends RequestMappingHandlerMapping {
         }
         return mappingInfo;
     }
+
     private String getPrefix(Class<?> handlerType) {
         String packageName = handlerType.getPackage().getName(); // 读取packageName
         String dotPath = packageName.replaceAll(this.apiPackagePath, ""); // com.fui.fuistore.api.v1 --替换为--> "v1"

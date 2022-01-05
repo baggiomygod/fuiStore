@@ -19,7 +19,10 @@ public class BannerServiceImpl implements BannerService {
     public Banner getByName(String name) {
         return bannerRepository.findOneByName(name);
     }
-    public Banner getById(Long id) { return bannerRepository.findOneById(id); }
+
+    public Banner getById(Long id) {
+        return bannerRepository.findOneById(id);
+    }
 
 }
 

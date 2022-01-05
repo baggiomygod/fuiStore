@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 @SpringBootApplication
 public class FuiStoreApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FuiStoreApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(FuiStoreApplication.class, args);
+    }
 
 }

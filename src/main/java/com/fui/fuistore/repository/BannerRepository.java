@@ -12,5 +12,6 @@ import org.springframework.stereotype.Repository;
 public interface BannerRepository extends JpaRepository<Banner, Long> {
     // 通过id查询banner
     Banner findOneById(Long id);
+
     Banner findOneByName(String name);
 }

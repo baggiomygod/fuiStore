@@ -17,9 +17,10 @@ public class ExceptionCodeConfiguration {
     private Map<Integer, String> codes = new HashMap<>();
 
     // getter
-    public Map<Integer, String> getCodes(){
+    public Map<Integer, String> getCodes() {
         return codes;
     }
+
     // setter
     public void setCodes(Map<Integer, String> codes) {
         this.codes = codes;

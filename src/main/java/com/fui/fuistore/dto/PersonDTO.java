@@ -40,12 +40,12 @@ import javax.validation.Valid;
 ////    }
 //}
 
-@PasswordEqual(message="密码不符合规则！", max = 8) // 使用自定义注解
+@PasswordEqual(message = "密码不符合规则！", max = 8) // 使用自定义注解
 public class PersonDTO {
 
 
     @NonNull // name不能为空
-    @Length(min=2, max=10, message="限2-10个字符")
+    @Length(min = 2, max = 10, message = "限2-10个字符")
     private String name;
     private Integer age;
 
@@ -55,6 +55,7 @@ public class PersonDTO {
     // 级联校验使用valid
     @Valid
     private SchoolDTO schoolDTO;
+
     // 构造函数 用
     public PersonDTO(String name, Integer age) {
         this.age = age;
@@ -68,9 +69,11 @@ public class PersonDTO {
     public String getName() {
         return name;
     }
+
     public Integer getAge() {
         return age;
     }
+
     public static String getStaticPassword1() {
         return password1;
     }
@@ -78,9 +81,11 @@ public class PersonDTO {
     public static String getStaticPassword2() {
         return password2;
     }
+
     public void setName(@NonNull String name) {
         this.name = name;
     }
+
     public void setAge(Integer age) {
         this.age = age;
     }

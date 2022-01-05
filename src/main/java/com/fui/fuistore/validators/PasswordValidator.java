@@ -9,8 +9,9 @@ import javax.validation.ConstraintValidatorContext;
 public class PasswordValidator implements ConstraintValidator<PasswordEqual, PersonDTO> {
     private int min;
     private int max;
+
     @Override
-    public void initialize(PasswordEqual constraintAnnotation){
+    public void initialize(PasswordEqual constraintAnnotation) {
         this.min = constraintAnnotation.min();
         this.max = constraintAnnotation.max();
     }
@@ -29,8 +30,8 @@ public class PasswordValidator implements ConstraintValidator<PasswordEqual, Per
         boolean MatchMinLen2 = password2.length() > this.min;
         boolean MatchMaxLen2 = password2.length() < this.max;
 
-        System.out.println("len:" + password1.length() + "--" + this.min );
-        System.out.println("len:" + password2.length() + "--" + this.max );
+        System.out.println("len:" + password1.length() + "--" + this.min);
+        System.out.println("len:" + password2.length() + "--" + this.max);
         boolean resultMatch = match && MatchMinLen1 && MatchMaxLen1 && MatchMinLen2 && MatchMaxLen2;
         return resultMatch;
     }

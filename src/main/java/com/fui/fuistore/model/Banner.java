@@ -18,6 +18,6 @@ public class Banner extends BaseEntity {
     private String title;
     private String img;
     @OneToMany(fetch = FetchType.LAZY)
-    @JoinColumn(name="bannerId") // 指定外键
+    @JoinColumn(name = "bannerId") // 指定外键
     private List<BannerItem> items;
 }
