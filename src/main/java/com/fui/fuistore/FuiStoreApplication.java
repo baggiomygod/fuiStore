@@ -1,5 +1,6 @@
 package com.fui.fuistore;
 
+import com.fui.fuistore.api.v1.BannerController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -13,5 +14,7 @@ public class FuiStoreApplication {
     public static void main(String[] args) {
         SpringApplication.run(FuiStoreApplication.class, args);
     }
+//    Application.register(BannerController);
 
 }
+

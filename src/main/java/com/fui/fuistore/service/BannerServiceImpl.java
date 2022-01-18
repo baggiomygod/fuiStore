@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class BannerServiceImpl implements BannerService {
-    @Autowired // 注入
+    @Autowired(required = true) // 注入
     private BannerRepository bannerRepository;
 
     public Banner getByName(String name) {

@@ -25,7 +25,7 @@ public class GlobalExceptionAdvice {
     // 异常处理器
 
     // 注入获取code的类 core/configuration/ExceptionCodeConfiguration (它被注入到容器中，@Autowired 引入)
-    @Autowired
+    @Autowired(required = true)
     private ExceptionCodeConfiguration codeConfiguration = new ExceptionCodeConfiguration();
 
     // 处理未知异常

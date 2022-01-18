@@ -32,4 +32,8 @@ public class BannerController {
         }
         return banner;
     }
+    @GetMapping("/test")
+    public String getTest() {
+        return "test";
+    }
 }
