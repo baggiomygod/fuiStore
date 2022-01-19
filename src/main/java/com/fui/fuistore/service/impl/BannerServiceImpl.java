@@ -1,7 +1,8 @@
-package com.fui.fuistore.service;
+package com.fui.fuistore.service.impl;
 
 import com.fui.fuistore.model.Banner;
 import com.fui.fuistore.repository.BannerRepository;
+import com.fui.fuistore.service.BannerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
