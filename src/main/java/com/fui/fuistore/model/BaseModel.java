@@ -17,7 +17,8 @@ public class BaseModel {
     @JsonIgnore
     private Date updateTime;
 
-    @TableLogic
+    @TableLogic()
     @JsonIgnore
     private Date deleteTime;
+
 }

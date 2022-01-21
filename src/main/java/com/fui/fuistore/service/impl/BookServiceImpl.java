@@ -27,8 +27,8 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public List<BookDO> getBookByKeyword(String q) {
-        List<BookDO> books = bookMapper.selectByTitleLikeKeyword(q);
+    public List<BookDO> getBookByKeyword(String title) {
+        List<BookDO> books = bookMapper.selectByTitleLikeKeyword(title);
         return books;
     }
 
@@ -44,7 +44,17 @@ public class BookServiceImpl implements BookService {
         return books;
     }
 
+    @Override
     public boolean deleteById(Integer id) {
         return bookMapper.deleteById(id) > 0;
+    }
+
+    @Override
+    public boolean updateBook(BookDO book, CreateOrUpdateBookDTO validator) {
+        book.setAuthor(validator.getAuthor());
+        book.setTitle(validator.getTitle());
+        book.setSummary(validator.getSummary());
+        book.setImage(validator.getImage());
+        return bookMapper.updateById(book) > 0;
     }
 }

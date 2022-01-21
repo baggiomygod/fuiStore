@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository // @Repository 它用于将数据访问层 (DAO 层 ) 的类标识为 Spring Bean。
-public interface BookMapper<T> extends BaseMapper<T> {
+public interface BookMapper extends BaseMapper<BookDO> {
     List<BookDO> selectByTitleLikeKeyword(@Param("q") String q);
 
     List<BookDO> selectByTitle(@Param("title") String title);

@@ -2,7 +2,8 @@ server:
   port: 8088
 spring:
   datasource: # 腾讯云mysql
-    url: jdbc:mysql://rm-bp1kqfk1r947048v79o.mysql.rds.aliyuncs.com/fui_store?useSSL=false&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://rm-bp1kqfk1r947048v79o.mysql.rds.aliyuncs.com/fui_store?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+#    url: jdbc:mysql://rm-bp1kqfk1r947048v79o.mysql.rds.aliyuncs.com/fui_store?useSSL=false&characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: rbaggio10!
   jpa:
@@ -11,6 +12,16 @@ spring:
         show_sql: true # 开发环境控制台打印sql语句
         format_sql: true
         ddl-auto: create # update 模型更改不会更新， none: 不通过模型创建表， create-drop： 通过model创建表
+# 开启http请求日志记录
+request-log:
+  enabled: true
+
+logging:
+  level:
+    # web信息日志记录
+    web: debug
+    # SQL日志记录
+    com.fui.fuistore.mapper: debug
 
 fuiStore:
   api-package: com.fui.fuistore.api
