@@ -1,0 +1,30 @@
+2022-01-26 11:23:29.178 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-26 11:23:29.199 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=book2, author=wf, summary=123, image=null)]
+2022-01-26 11:23:29.279 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==>  Preparing: INSERT INTO book ( title, author, summary ) VALUES ( ?, ?, ? )
+2022-01-26 11:23:29.295 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==> Parameters: book2(String), wf(String), 123(String)
+2022-01-26 11:23:29.324 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - <==    Updates: 1
+2022-01-26 11:23:29.334 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-26 11:23:29.334 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=12, message=null, request=null)]
+2022-01-26 11:23:29.337 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2022-01-26 14:26:21.638 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-26 14:26:21.640 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=null, author=wf, summary=123, image=null)]
+2022-01-26 14:26:21.654 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleBeanValidation(HttpServletRequest, MethodArgumentNotValidException)
+2022-01-26 14:26:21.655 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-26 14:26:21.655 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@148e0499]
+2022-01-26 14:26:21.657 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2022-01-26 15:52:32.539 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-26 15:52:32.549 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-26 15:52:32.549 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-26 15:52:34.093 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-26 15:52:34.142 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-26 15:52:34.148 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-26 15:52:58.901 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-01-26 15:52:58.905 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-01-26 15:52:58.911 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-26 15:52:58.952 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=book3, author=wf, summary=123, image=null)]
+2022-01-26 15:52:59.027 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==>  Preparing: INSERT INTO book ( title, author, summary ) VALUES ( ?, ?, ? )
+2022-01-26 15:52:59.041 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==> Parameters: book3(String), wf(String), 123(String)
+2022-01-26 15:52:59.066 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - <==    Updates: 1
+2022-01-26 15:52:59.082 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-26 15:52:59.082 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=12, message=创建成功)]
+2022-01-26 15:52:59.090 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED

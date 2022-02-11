@@ -1,6 +1,7 @@
 package com.fui.fuistore.service;
 
 import com.fui.fuistore.dto.CreateOrUpdateBookDTO;
+import com.fui.fuistore.dto.UpdateBookDTO;
 import com.fui.fuistore.model.BookDO;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +16,7 @@ public interface BookService {
 
     List<BookDO> findAll();
 
-    boolean updateBook(BookDO book, CreateOrUpdateBookDTO validator);
+    boolean updateBook(BookDO book, UpdateBookDTO validator);
 
     boolean deleteById(Integer id);
 }

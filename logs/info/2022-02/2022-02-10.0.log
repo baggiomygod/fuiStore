@@ -1,0 +1,495 @@
+2022-02-10 14:56:02.750 [Thread-10] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 14:56:02.761 [Thread-10] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 14:56:02.773 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 14:56:02.777 [Thread-10] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 14:56:03.097 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 14:56:03.097 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 14:56:03.304 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 14:56:03.329 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+2022-02-10 14:56:03.442 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 14:56:03.442 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 14:56:03.442 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 14:56:03.443 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 14:56:03.461 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 14:56:03.461 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 361 ms
+2022-02-10 14:56:03.491 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 14:56:03.494 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-02-10 14:56:03.619 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-02-10 14:56:03.620 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 14:56:03.663 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 14:56:03.663 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 14:56:03.708 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 14:56:03.832 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 14:56:03.879 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 14:56:03.936 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 14:56:03.944 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 14:56:03.947 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 14:56:03.947 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 0.901 seconds (JVM running for 190041.302)
+2022-02-10 14:56:03.948 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-10 15:02:45.940 [Thread-18] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:02:45.941 [Thread-18] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:02:45.941 [Thread-18] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-02-10 15:02:45.944 [Thread-18] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-02-10 15:02:46.183 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:02:46.183 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:02:46.298 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:02:46.299 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2022-02-10 15:02:46.438 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:02:46.439 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:02:46.439 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:02:46.439 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:02:46.462 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:02:46.462 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 275 ms
+2022-02-10 15:02:46.489 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:02:46.491 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-02-10 15:02:46.588 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-02-10 15:02:46.588 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:02:46.595 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:02:46.595 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:02:46.630 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:02:46.674 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:02:46.674 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:02:46.675 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-02-10 15:02:46.676 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-02-10 15:02:46.676 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:02:46.680 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:02:49.167 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:02:49.167 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:02:49.324 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:02:49.349 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+2022-02-10 15:02:49.465 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:02:49.466 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:02:49.466 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:02:49.466 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:02:49.482 [restartedMain] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:02:49.483 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 312 ms
+2022-02-10 15:02:49.513 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:02:49.517 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-02-10 15:02:49.622 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-02-10 15:02:49.622 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:02:49.663 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:02:49.664 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:02:49.710 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:02:49.828 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:02:49.886 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:02:49.956 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:02:49.965 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:02:49.969 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:02:49.970 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 0.847 seconds (JVM running for 190447.325)
+2022-02-10 15:02:49.971 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-10 15:02:50.188 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 324552 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:02:50.190 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:02:50.226 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:02:50.226 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:02:50.684 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:02:50.746 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
+2022-02-10 15:02:51.222 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:02:51.229 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:02:51.230 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:02:51.230 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:02:51.312 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:02:51.312 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1086 ms
+2022-02-10 15:02:51.454 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:02:51.514 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:02:51.621 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:02:51.704 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:02:51.827 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:02:51.845 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:02:52.353 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:02:52.359 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:02:52.611 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:02:58.310 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:03:15.791 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:03:28.284 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:03:28.347 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:03:28.418 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:03:28.482 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:03:28.910 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:03:29.787 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:04:23.669 [http-nio-8088-exec-4] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 15:04:23.670 [http-nio-8088-exec-4] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 15:04:23.673 [http-nio-8088-exec-4] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-02-10 15:05:35.695 [Thread-23] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:05:35.696 [Thread-23] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:05:35.696 [Thread-23] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2022-02-10 15:05:35.699 [Thread-23] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2022-02-10 15:05:35.993 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:05:35.994 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:05:36.119 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 326272 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:05:36.121 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:05:36.166 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:05:36.166 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:05:36.174 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:05:36.199 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+2022-02-10 15:05:36.316 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:05:36.317 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:05:36.317 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:05:36.317 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:05:36.335 [restartedMain] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:05:36.335 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 339 ms
+2022-02-10 15:05:36.367 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:05:36.370 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2022-02-10 15:05:36.464 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2022-02-10 15:05:36.464 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:05:36.493 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:05:36.493 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:05:36.523 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:05:36.625 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:05:36.654 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:05:36.664 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:05:36.716 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:05:36.721 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2022-02-10 15:05:36.728 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:05:36.731 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:05:36.731 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 0.781 seconds (JVM running for 190614.086)
+2022-02-10 15:05:36.733 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-10 15:05:37.180 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:05:37.187 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:05:37.187 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:05:37.188 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:05:37.267 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:05:37.267 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1101 ms
+2022-02-10 15:05:37.407 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:05:37.455 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:05:37.537 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:05:37.604 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:05:37.803 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:05:37.818 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:05:38.296 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:05:38.303 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:05:38.530 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:05:44.891 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:06:01.435 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:06:13.684 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:06:13.748 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:06:13.824 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:06:14.095 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:06:14.368 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:06:15.167 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:06:36.379 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 326576 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:06:36.381 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:06:36.423 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:06:36.423 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:06:36.971 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:06:37.044 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2022-02-10 15:06:37.615 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:06:37.622 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:06:37.623 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:06:37.623 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:06:37.722 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:06:37.722 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1299 ms
+2022-02-10 15:06:37.896 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:06:37.958 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:06:38.112 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:06:38.231 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:06:38.422 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:06:38.445 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:06:39.096 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:06:39.105 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:06:39.382 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:06:45.218 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:07:01.498 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:02.583 [http-nio-8088-exec-1] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 15:07:02.584 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 15:07:02.587 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-02-10 15:07:14.499 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:14.577 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:14.649 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:07:14.716 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:07:15.054 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:07:15.836 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:07:40.610 [Thread-31] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:40.610 [Thread-31] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:40.611 [Thread-31] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2022-02-10 15:07:40.614 [Thread-31] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2022-02-10 15:07:40.807 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:07:40.807 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:07:40.937 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:07:40.958 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 1 JPA repository interfaces.
+2022-02-10 15:07:41.053 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:07:41.054 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:41.054 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:07:41.054 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:07:41.071 [restartedMain] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:07:41.071 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 262 ms
+2022-02-10 15:07:41.105 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:07:41.109 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2022-02-10 15:07:41.163 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2022-02-10 15:07:41.164 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:07:41.190 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:07:41.190 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:41.219 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:07:41.308 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:07:41.343 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:41.386 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:07:41.394 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:41.396 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:07:41.397 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 0.618 seconds (JVM running for 190738.751)
+2022-02-10 15:07:41.397 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-10 15:07:48.253 [Thread-36] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:48.253 [Thread-36] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:48.253 [Thread-36] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2022-02-10 15:07:48.255 [Thread-36] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2022-02-10 15:07:48.431 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:07:48.432 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:07:48.528 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:07:48.529 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0ms. Found 0 JPA repository interfaces.
+2022-02-10 15:07:48.616 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:07:48.617 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:48.617 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:07:48.617 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:07:48.634 [restartedMain] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:07:48.634 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 201 ms
+2022-02-10 15:07:48.655 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:07:48.658 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2022-02-10 15:07:48.772 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2022-02-10 15:07:48.772 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:07:48.779 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:07:48.779 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:48.822 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:48.867 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:48.867 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:48.868 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2022-02-10 15:07:48.869 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2022-02-10 15:07:48.869 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:07:48.873 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:07:50.774 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 215956 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:07:50.774 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:07:50.946 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:07:50.975 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 1 JPA repository interfaces.
+2022-02-10 15:07:51.126 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:07:51.126 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:51.126 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:07:51.127 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:07:51.150 [restartedMain] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:07:51.150 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 374 ms
+2022-02-10 15:07:51.210 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:07:51.216 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2022-02-10 15:07:51.284 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2022-02-10 15:07:51.285 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:07:51.332 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:07:51.332 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:51.368 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:07:51.498 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:07:51.547 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:07:51.611 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:07:51.622 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:51.625 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:07:51.625 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 0.888 seconds (JVM running for 190748.981)
+2022-02-10 15:07:51.627 [restartedMain] "  " INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-02-10 15:07:52.348 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 327352 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:07:52.351 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:07:52.398 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:07:52.398 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:07:53.052 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:07:53.122 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2022-02-10 15:07:53.799 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:07:53.806 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:07:53.807 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:07:53.807 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:07:53.887 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:07:53.887 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1489 ms
+2022-02-10 15:07:54.061 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:07:54.124 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:07:54.241 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:07:54.350 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:07:54.587 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:07:54.603 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:07:55.127 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:07:55.134 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:07:55.444 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:08:01.437 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:08:18.544 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:08:40.651 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:08:40.738 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:08:40.744 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:08:40.816 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:08:40.823 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:08:40.915 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:08:42.037 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:08:42.103 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:08:42.182 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:08:42.248 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:08:47.258 [http-nio-8088-exec-1] "  " INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 15:08:47.258 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 15:08:47.260 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-02-10 15:10:00.327 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 323440 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:10:00.329 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:10:00.367 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:10:00.367 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:10:00.864 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:10:00.937 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2022-02-10 15:10:01.375 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:10:01.382 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:10:01.382 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:10:01.382 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:10:01.465 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:10:01.465 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1098 ms
+2022-02-10 15:10:01.606 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:10:01.654 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:10:01.738 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:10:01.808 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:10:01.938 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:10:01.952 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:10:02.399 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:10:02.406 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:10:02.641 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:10:08.378 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:10:24.525 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:10:47.205 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:10:47.553 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:10:47.580 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:10:47.905 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:10:47.935 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:10:48.052 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:10:48.444 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:10:48.518 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:10:48.627 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:10:48.707 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:12:48.136 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 322604 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:12:48.138 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:12:48.170 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:12:48.171 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:12:48.621 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:12:48.683 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 1 JPA repository interfaces.
+2022-02-10 15:12:49.119 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:12:49.125 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:12:49.126 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:12:49.126 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:12:49.211 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:12:49.211 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1040 ms
+2022-02-10 15:12:49.354 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:12:49.402 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:12:49.491 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:12:49.563 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:12:49.822 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:12:49.836 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:12:50.305 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:12:50.312 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:12:50.552 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:12:56.648 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:13:14.763 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:13:38.953 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:13:39.039 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:13:39.045 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-02-10 15:13:39.120 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:13:39.127 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:13:39.214 [restartedMain] "  " INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-10 15:13:40.116 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:13:40.182 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:13:40.262 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:13:40.327 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:13:55.305 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 329168 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:13:55.307 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:13:55.344 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:13:55.344 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:13:55.803 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:13:55.866 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2022-02-10 15:13:56.307 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:13:56.313 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:13:56.314 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:13:56.314 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:13:56.399 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:13:56.399 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1055 ms
+2022-02-10 15:13:56.543 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:13:56.594 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:13:56.698 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:13:56.795 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:13:57.006 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:13:57.021 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:13:57.563 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:13:57.571 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:13:57.864 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:14:04.470 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:14:20.866 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:14:38.061 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:14:43.379 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:14:43.760 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:14:44.019 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 49.128 seconds (JVM running for 49.765)
+2022-02-10 15:14:56.380 [http-nio-8088-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 15:14:56.388 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 15:14:56.898 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 504 ms
+2022-02-10 15:18:28.416 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:18:28.418 [SpringContextShutdownHook] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:18:28.421 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 15:18:28.425 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 15:19:34.277 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 328992 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 15:19:34.279 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 15:19:34.312 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 15:19:34.313 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 15:19:34.789 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 15:19:34.852 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 1 JPA repository interfaces.
+2022-02-10 15:19:35.298 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 15:19:35.305 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:19:35.306 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 15:19:35.306 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 15:19:35.392 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 15:19:35.393 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1080 ms
+2022-02-10 15:19:35.536 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 15:19:35.585 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 15:19:35.672 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 15:19:35.742 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 15:19:36.011 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 15:19:36.025 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 15:19:36.472 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 15:19:36.478 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 15:19:36.708 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 15:19:43.711 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 15:20:00.578 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 15:20:17.897 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 15:20:23.243 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 15:20:23.764 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 15:20:24.020 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 50.119 seconds (JVM running for 50.731)
+2022-02-10 15:39:00.464 [http-nio-8088-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 15:39:00.491 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 15:39:01.422 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 907 ms
+2022-02-10 16:25:59.071 [SpringContextShutdownHook] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-10 16:25:59.072 [SpringContextShutdownHook] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 16:25:59.079 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-02-10 16:25:59.083 [SpringContextShutdownHook] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-02-10 16:26:02.043 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Starting FuiStoreApplication on DESKTOP-S3UGTC6 with PID 330516 (D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore\target\classes started by admin in D:\work\jyjs-projects\wengfan\wengfProj\server\fuiStore)
+2022-02-10 16:26:02.047 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - The following profiles are active: dev
+2022-02-10 16:26:02.090 [restartedMain] "  " INFO  o.s.boot.devtools.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/admin/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-02-10 16:26:02.091 [restartedMain] "  " INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-10 16:26:02.595 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-10 16:26:02.687 [restartedMain] "  " INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2022-02-10 16:26:03.317 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-02-10 16:26:03.325 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-02-10 16:26:03.326 [restartedMain] "  " INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-10 16:26:03.326 [restartedMain] "  " INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2022-02-10 16:26:03.418 [restartedMain] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-10 16:26:03.419 [restartedMain] "  " INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1328 ms
+2022-02-10 16:26:03.585 [restartedMain] "  " INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-10 16:26:03.647 [restartedMain] "  " INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-02-10 16:26:03.741 [restartedMain] "  " INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2022-02-10 16:26:03.870 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-02-10 16:26:04.041 [restartedMain] "  " INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-02-10 16:26:04.064 [restartedMain] "  " INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-10 16:26:04.702 [restartedMain] "  " INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-10 16:26:04.711 [restartedMain] "  " INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-10 16:26:05.025 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.impl.RootServiceImpl.getRoot()
+2022-02-10 16:26:11.032 [restartedMain] "  " INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: public java.lang.String com.fui.fuistore.service.V2ServiceImpl.getV2()
+2022-02-10 16:26:27.300 [restartedMain] "  " INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-10 16:26:44.562 [restartedMain] "  " INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-02-10 16:26:49.640 [restartedMain] "  " INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-02-10 16:26:50.539 [restartedMain] "  " INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-02-10 16:26:50.678 [restartedMain] "  " INFO  com.fui.fuistore.FuiStoreApplication - Started FuiStoreApplication in 49.149 seconds (JVM running for 49.746)
+2022-02-10 16:43:47.119 [http-nio-8088-exec-1] "  " INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-10 16:43:47.126 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-02-10 16:43:48.189 [http-nio-8088-exec-1] "  " INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1058 ms

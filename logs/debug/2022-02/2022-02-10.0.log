@@ -1,0 +1,215 @@
+2022-02-10 14:56:03.461 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 14:56:03.466 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 14:56:03.466 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 14:56:03.882 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 14:56:03.900 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 14:56:03.904 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:02:46.462 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:02:46.469 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:02:46.469 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:02:46.631 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:02:46.636 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2022-02-10 15:02:46.646 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:02:46.651 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:02:49.483 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:02:49.488 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:02:49.488 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:02:49.889 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:02:49.912 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:02:49.919 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:02:51.312 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:02:51.324 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:02:51.324 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:03:17.161 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:03:24.358 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:03:25.832 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:04:23.670 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 15:04:23.673 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 15:04:23.674 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:04:23.676 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:04:23.679 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:04:23.679 [http-nio-8088-exec-4] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@1b5b0a6a]
+2022-02-10 15:04:23.701 [http-nio-8088-exec-4] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:04:33.517 [http-nio-8088-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:04:33.518 [http-nio-8088-exec-5] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:04:33.518 [http-nio-8088-exec-5] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:04:33.518 [http-nio-8088-exec-5] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@61fc7ece]
+2022-02-10 15:04:33.519 [http-nio-8088-exec-5] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:05:36.335 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:05:36.340 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:05:36.340 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:05:36.666 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:05:36.681 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:05:36.685 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:05:37.267 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:05:37.279 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:05:37.279 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:06:02.785 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:06:10.012 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:06:11.422 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:06:37.722 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:06:37.738 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:06:37.739 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:07:02.584 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 15:07:02.586 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 15:07:02.587 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:07:02.588 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:07:02.589 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:07:02.589 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@2260485f]
+2022-02-10 15:07:02.591 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:07:02.831 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:07:10.547 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:07:11.951 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:07:41.071 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:07:41.083 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:07:41.083 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:07:41.345 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:07:41.358 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:07:41.362 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:07:48.634 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:07:48.639 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:07:48.639 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:07:48.824 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:07:48.828 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 mappings in 'requestMappingHandlerMapping'
+2022-02-10 15:07:48.839 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:07:48.844 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:07:51.150 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:07:51.158 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:07:51.158 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:07:51.551 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:07:51.567 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:07:51.571 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:07:53.887 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:07:53.904 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:07:53.904 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:08:19.884 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:08:26.101 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:08:27.319 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:08:47.258 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 15:08:47.260 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 15:08:47.260 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:08:47.261 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:08:47.262 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:08:47.262 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@254645f8]
+2022-02-10 15:08:47.263 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:09:24.959 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2022-02-10 15:09:24.960 [http-nio-8088-exec-2] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-10 15:09:24.960 [http-nio-8088-exec-2] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-10 15:09:24.960 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2022-02-10 15:09:24.960 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2022-02-10 15:09:24.961 [http-nio-8088-exec-2] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-10 15:09:24.962 [http-nio-8088-exec-2] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-10 15:09:24.962 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2022-02-10 15:09:26.487 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2022-02-10 15:09:26.487 [http-nio-8088-exec-3] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-10 15:09:26.487 [http-nio-8088-exec-3] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-10 15:09:26.488 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2022-02-10 15:09:26.488 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2022-02-10 15:09:26.488 [http-nio-8088-exec-3] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-10 15:09:26.489 [http-nio-8088-exec-3] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-10 15:09:26.489 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2022-02-10 15:10:01.465 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:10:01.478 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:10:01.478 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:10:25.855 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:10:31.994 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:10:33.224 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:12:49.211 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:12:49.223 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:12:49.223 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:13:16.499 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:13:23.507 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:13:24.121 [http-nio-8088-exec-6] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:13:24.122 [http-nio-8088-exec-6] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:13:24.122 [http-nio-8088-exec-6] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:13:24.122 [http-nio-8088-exec-6] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@21a55d2f]
+2022-02-10 15:13:24.123 [http-nio-8088-exec-6] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:13:24.913 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:13:56.399 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:13:56.411 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:13:56.411 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:14:22.198 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:14:28.465 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:14:29.683 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:14:56.394 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 15:14:56.890 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 15:14:57.269 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/3", parameters={}
+2022-02-10 15:14:57.508 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleException(HttpServletRequest, Exception)
+2022-02-10 15:14:58.779 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:14:58.795 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@2be3b6a5]
+2022-02-10 15:14:59.188 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2022-02-10 15:15:15.976 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/3", parameters={}
+2022-02-10 15:15:18.071 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=book-updated, author=wf12, summary=123, image=null)]
+2022-02-10 15:15:22.141 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2022-02-10 15:15:25.060 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==> Parameters: 3(Integer)
+2022-02-10 15:15:27.194 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - <==      Total: 1
+2022-02-10 15:15:28.259 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==>  Preparing: UPDATE book SET title=?, author=?, summary=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2022-02-10 15:15:28.468 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==> Parameters: book-updated(String), wf12(String), 123(String), 2022-01-26 00:36:37.705(Timestamp), 2022-01-26 00:36:37.705(Timestamp), 3(Integer)
+2022-02-10 15:15:28.497 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - <==    Updates: 1
+2022-02-10 15:15:36.554 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:15:36.562 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=13, message=null)]
+2022-02-10 15:15:36.599 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2022-02-10 15:16:27.205 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/3", parameters={}
+2022-02-10 15:16:27.248 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=book123, author=wf12, summary=null, image=null)]
+2022-02-10 15:16:28.898 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleBeanValidation(HttpServletRequest, MethodArgumentNotValidException)
+2022-02-10 15:16:28.944 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:16:28.952 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@5835a4d1]
+2022-02-10 15:16:28.981 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2022-02-10 15:19:35.393 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 15:19:35.405 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 15:19:35.405 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 15:20:01.989 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 15:20:08.347 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 15:20:09.485 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 15:39:00.517 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 15:39:01.417 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 15:39:01.665 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/3", parameters={}
+2022-02-10 15:39:04.513 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UpdateBookDTO(title=book123, author=wf12, summary=null, image=null)]
+2022-02-10 15:39:08.666 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2022-02-10 15:39:12.085 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==> Parameters: 3(Integer)
+2022-02-10 15:39:14.391 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - <==      Total: 1
+2022-02-10 15:39:15.272 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==>  Preparing: UPDATE book SET title=?, author=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2022-02-10 15:39:15.588 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==> Parameters: book123(String), wf12(String), 2022-01-26 00:36:37.705(Timestamp), 2022-01-26 00:36:37.705(Timestamp), 3(Integer)
+2022-02-10 15:39:15.887 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - <==    Updates: 1
+2022-02-10 15:39:26.611 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:39:26.665 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=13, message=null)]
+2022-02-10 15:39:27.447 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2022-02-10 15:40:19.645 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/3", parameters={}
+2022-02-10 15:40:19.814 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UpdateBookDTO(title=book111, author=wf12, summary=null, image=null)]
+2022-02-10 15:40:20.047 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2022-02-10 15:40:20.057 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==> Parameters: 3(Integer)
+2022-02-10 15:40:20.241 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - <==      Total: 1
+2022-02-10 15:40:20.300 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==>  Preparing: UPDATE book SET title=?, author=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2022-02-10 15:40:20.317 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==> Parameters: book111(String), wf12(String), 2022-01-26 00:36:37.705(Timestamp), 2022-01-26 00:36:37.705(Timestamp), 3(Integer)
+2022-02-10 15:40:20.619 [http-nio-8088-exec-2] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - <==    Updates: 1
+2022-02-10 15:40:20.668 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 15:40:20.693 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=13, message=null)]
+2022-02-10 15:40:20.771 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2022-02-10 16:26:03.418 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-10 16:26:03.432 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-10 16:26:03.432 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-10 16:26:28.679 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-10 16:26:35.073 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-10 16:26:36.294 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-10 16:43:47.132 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-10 16:43:48.183 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-10 16:43:48.376 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/3", parameters={}
+2022-02-10 16:43:51.033 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UpdateBookDTO(title=book111, author=wf12, summary=null, image=null)]
+2022-02-10 16:43:54.917 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2022-02-10 16:43:58.186 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==> Parameters: 3(Integer)
+2022-02-10 16:44:00.154 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - <==      Total: 1
+2022-02-10 16:44:00.842 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==>  Preparing: UPDATE book SET title=?, author=?, create_time=?, update_time=? WHERE id=? AND delete_time IS NULL
+2022-02-10 16:44:01.254 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - ==> Parameters: book111(String), wf12(String), 2022-01-26 00:36:37.705(Timestamp), 2022-01-26 00:36:37.705(Timestamp), 3(Integer)
+2022-02-10 16:44:01.275 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.updateById - <==    Updates: 1
+2022-02-10 16:44:02.049 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-10 16:44:02.103 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=13, message=null)]
+2022-02-10 16:44:02.570 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2022-02-10 17:05:00.543 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/v1/book/8", parameters={}
+2022-02-10 17:05:00.588 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UpdateBookDTO(title=book111, author=wf12, summary=null, image=null)]
+2022-02-10 17:05:00.633 [http-nio-8088-exec-3] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==>  Preparing: SELECT id,title,author,summary,image,create_time,update_time,delete_time FROM book WHERE id=? AND delete_time IS NULL
+2022-02-10 17:05:00.643 [http-nio-8088-exec-3] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - ==> Parameters: 8(Integer)
+2022-02-10 17:05:00.665 [http-nio-8088-exec-3] "  " DEBUG com.fui.fuistore.mapper.BookMapper.selectById - <==      Total: 0
+2022-02-10 17:05:00.717 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleHttpException(HttpServletRequest, HttpException)
+2022-02-10 17:05:00.994 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Found 'Content-Type:application/json' in response
+2022-02-10 17:05:01.070 [http-nio-8088-exec-3] "  " DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@92827b0]
+2022-02-10 17:05:01.181 [http-nio-8088-exec-3] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND

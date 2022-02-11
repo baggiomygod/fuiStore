@@ -1,0 +1,221 @@
+2022-01-25 09:25:05.657 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 09:25:05.669 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 09:25:05.669 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 09:25:07.185 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 09:25:07.239 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 09:25:07.245 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 09:28:20.018 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 09:28:20.033 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 09:28:20.033 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 09:28:21.619 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 09:28:21.667 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 09:28:21.674 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 09:32:29.427 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 09:32:29.441 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 09:32:29.441 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 09:32:31.024 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 09:32:31.069 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 09:32:31.076 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:02:47.140 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:02:47.151 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:02:47.151 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:02:48.671 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:02:48.717 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:02:48.723 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:04:12.093 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:04:12.105 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:04:12.105 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:04:13.635 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:04:13.681 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:04:13.687 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:04:51.494 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:04:51.504 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:04:51.504 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:04:52.965 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:04:53.012 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:04:53.017 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:05:44.039 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:05:44.050 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:05:44.050 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:05:45.582 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:05:45.628 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:05:45.634 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:15:09.338 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:15:09.353 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:15:09.353 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:15:10.936 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:15:10.985 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:15:10.991 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:17:47.095 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 10:17:47.106 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 10:17:47.107 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 10:17:48.620 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 10:17:48.669 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 10:17:48.676 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 10:18:02.259 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-01-25 10:18:02.263 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-01-25 10:18:02.269 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book/search", parameters={}
+2022-01-25 10:18:02.323 [http-nio-8088-exec-1] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - ==>  Preparing: SELECT * FROM book b WHERE b.title LIKE ? AND b.delete_time IS NULL
+2022-01-25 10:18:02.336 [http-nio-8088-exec-1] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - ==> Parameters: %%(String)
+2022-01-25 10:18:02.356 [http-nio-8088-exec-1] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - <==      Total: 2
+2022-01-25 10:18:02.369 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-25 10:18:02.369 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=中国为什么有前途, author=翟东升, summary=经济、货币、经济、政治..., image=null), BookDO(title=定价权, author=张捷 (truncated)...]
+2022-01-25 10:18:02.398 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2022-01-25 14:42:35.219 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 14:42:35.234 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 14:42:35.234 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 14:42:36.800 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 14:42:36.846 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 14:42:36.854 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 14:56:52.397 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 14:56:52.408 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 14:56:52.408 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 14:56:53.922 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 14:56:53.969 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 14:56:53.976 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:04:01.788 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:04:01.799 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:04:01.799 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:04:03.275 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:04:03.319 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:04:03.325 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:05:26.329 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:05:26.340 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:05:26.340 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:05:27.845 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:05:27.896 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:05:27.902 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:25:23.267 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:25:23.278 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:25:23.278 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:25:24.823 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:25:24.869 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:25:24.875 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:25:46.837 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:25:46.849 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:25:46.849 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:25:48.399 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:25:48.447 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:25:48.453 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:26:00.805 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:26:00.818 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:26:00.818 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:26:02.407 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:26:02.454 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:26:02.459 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:26:50.846 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:26:50.856 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:26:50.857 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:26:52.402 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:26:52.448 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:26:52.455 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:27:41.919 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:27:41.930 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:27:41.930 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:27:43.519 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:27:43.592 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:27:43.604 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:28:05.583 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:28:05.594 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:28:05.594 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:28:07.096 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:28:07.143 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:28:07.149 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:30:23.501 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:30:23.512 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:30:23.512 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:30:25.005 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:30:25.053 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:30:25.059 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:32:38.694 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:32:38.707 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:32:38.708 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:32:40.238 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:32:40.287 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:32:40.293 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:39:46.861 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:39:46.871 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:39:46.872 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:39:48.393 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:39:48.443 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:39:48.449 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:42:36.966 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:42:36.977 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:42:36.977 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:42:38.511 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:42:38.558 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:42:38.564 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:42:56.285 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:42:56.297 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:42:56.297 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:42:57.791 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:42:57.839 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:42:57.845 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 15:43:49.400 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 15:43:49.413 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 15:43:49.413 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 15:43:51.012 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 15:43:51.066 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 15:43:51.072 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:34:17.058 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:34:17.071 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:34:17.071 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:34:19.566 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:34:19.616 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:34:19.623 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:34:41.824 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:34:41.835 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:34:41.835 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:34:43.378 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:34:43.424 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:34:43.430 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:35:29.317 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:35:29.328 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:35:29.328 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:35:30.777 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:35:30.827 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:35:30.833 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:35:50.639 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:35:50.650 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:35:50.651 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:35:52.149 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:35:52.200 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:35:52.206 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:37:14.023 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-01-25 16:37:14.027 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-01-25 16:37:14.033 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-25 16:37:14.082 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=book1, author=wf, summary=123, image=null)]
+2022-01-25 16:37:14.314 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==>  Preparing: INSERT INTO book ( title, author, summary ) VALUES ( ?, ?, ? )
+2022-01-25 16:37:14.328 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - ==> Parameters: book1(String), wf(String), 123(String)
+2022-01-25 16:37:14.684 [http-nio-8088-exec-1] "  " DEBUG com.fui.fuistore.mapper.BookMapper.insert - <==    Updates: 1
+2022-01-25 16:37:14.702 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-25 16:37:14.702 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [UnifyResponseVO(code=12, message=null, request=null)]
+2022-01-25 16:37:14.713 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 201 CREATED
+2022-01-25 16:49:59.706 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:49:59.718 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:49:59.718 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:50:01.272 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:50:01.324 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:50:01.331 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:50:19.541 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-01-25 16:50:19.544 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-01-25 16:50:19.550 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-25 16:50:19.592 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=null, author=wf, summary=123, image=null)]
+2022-01-25 16:50:19.634 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleBeanValidation(HttpServletRequest, MethodArgumentNotValidException)
+2022-01-25 16:50:19.644 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-25 16:50:19.645 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@586bfff4]
+2022-01-25 16:50:19.653 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2022-01-25 16:50:33.178 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-01-25 16:50:33.189 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-01-25 16:50:33.189 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-01-25 16:50:34.733 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-01-25 16:50:34.781 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-01-25 16:50:34.787 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-01-25 16:50:37.092 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-01-25 16:50:37.096 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-01-25 16:50:37.101 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/v1/book/create", parameters={}
+2022-01-25 16:50:37.145 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CreateOrUpdateBookDTO(title=null, author=wf, summary=123, image=null)]
+2022-01-25 16:50:37.208 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.fui.fuistore.core.GlobalExceptionAdvice#handleBeanValidation(HttpServletRequest, MethodArgumentNotValidException)
+2022-01-25 16:50:37.218 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-01-25 16:50:37.219 [http-nio-8088-exec-1] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.fui.fuistore.core.UnifyResponse@816fb60]
+2022-01-25 16:50:37.227 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST

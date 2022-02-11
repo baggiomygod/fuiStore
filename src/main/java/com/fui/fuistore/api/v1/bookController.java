@@ -1,8 +1,12 @@
 package com.fui.fuistore.api.v1;
 
+import com.fui.fuistore.dto.CreateOrUpdateBookDTO;
+import com.fui.fuistore.dto.UpdateBookDTO;
 import com.fui.fuistore.exception.http.NotFoundException;
 import com.fui.fuistore.model.BookDO;
 import com.fui.fuistore.service.BookService;
+import com.fui.fuistore.vo.CreatedVO;
+import com.fui.fuistore.vo.UpdatedVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -38,7 +42,22 @@ public class bookController {
         return books;
     }
 
-//    @PutMapping("/{id}")
-//    public boolean updateBook;
+    @PostMapping("/create")
+    public CreatedVO createBook(@RequestBody @Validated CreateOrUpdateBookDTO validator) {
+        bookService.createBook(validator);
+//        return new CreatedVO(12);
+        return new CreatedVO(0, "创建成功");
+    }
+
+
+    @PutMapping("/{id}")
+    public UpdatedVO updateBook(@PathVariable("id") @Positive(message="{id.positive}") Integer id, @RequestBody @Validated UpdateBookDTO validator) {
+        BookDO book = bookService.getById(id);
+        if (book == null) {
+            throw new NotFoundException(10022);
+        }
+        bookService.updateBook(book, validator);
+        return new UpdatedVO(0);
+    }
 
 }

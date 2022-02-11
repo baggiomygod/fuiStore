@@ -1,0 +1,23 @@
+2022-02-08 10:08:44.728 [restartedMain] "  " DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-02-08 10:08:44.739 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-02-08 10:08:44.739 [restartedMain] "  " DEBUG o.s.b.web.servlet.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2022-02-08 10:08:46.378 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-02-08 10:08:46.424 [restartedMain] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-02-08 10:08:46.431 [restartedMain] "  " DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-02-08 10:22:19.932 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2022-02-08 10:22:19.937 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-02-08 10:22:19.942 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/search?title=%E4%B8%AD%E5%9B%BD", parameters={masked}
+2022-02-08 10:22:19.946 [http-nio-8088-exec-1] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-08 10:22:19.949 [http-nio-8088-exec-1] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-08 10:22:19.949 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2022-02-08 10:22:19.954 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error?title=%E4%B8%AD%E5%9B%BD", parameters={masked}
+2022-02-08 10:22:19.954 [http-nio-8088-exec-1] "  " DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2022-02-08 10:22:19.955 [http-nio-8088-exec-1] "  " DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2022-02-08 10:22:19.955 [http-nio-8088-exec-1] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2022-02-08 10:22:33.532 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/book/search?title=%E4%B8%AD%E5%9B%BD", parameters={masked}
+2022-02-08 10:22:33.589 [http-nio-8088-exec-2] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - ==>  Preparing: SELECT * FROM book b WHERE b.title LIKE ? AND b.delete_time IS NULL
+2022-02-08 10:22:33.604 [http-nio-8088-exec-2] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - ==> Parameters: %中国%(String)
+2022-02-08 10:22:33.632 [http-nio-8088-exec-2] "  " DEBUG c.f.f.mapper.BookMapper.selectByTitleLikeKeyword - <==      Total: 1
+2022-02-08 10:22:33.645 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-02-08 10:22:33.646 [http-nio-8088-exec-2] "  " DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[BookDO(title=中国为什么有前途, author=翟东升, summary=经济、货币、经济、政治..., image=null)]]
+2022-02-08 10:22:33.674 [http-nio-8088-exec-2] "  " DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

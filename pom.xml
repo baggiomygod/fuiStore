@@ -89,11 +89,11 @@
         </dependency>
 
         <!-- lin cms java core-->
-        <dependency>
-            <groupId>io.github.talelin</groupId>
-            <artifactId>lin-cms-spring-boot-starter</artifactId>
-            <version>0.2.0-RELEASE</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>io.github.talelin</groupId>-->
+<!--            <artifactId>lin-cms-spring-boot-starter</artifactId>-->
+<!--            <version>0.2.0-RELEASE</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 

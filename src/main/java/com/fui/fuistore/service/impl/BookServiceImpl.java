@@ -1,6 +1,7 @@
 package com.fui.fuistore.service.impl;
 
 import com.fui.fuistore.dto.CreateOrUpdateBookDTO;
+import com.fui.fuistore.dto.UpdateBookDTO;
 import com.fui.fuistore.mapper.BookMapper;
 import com.fui.fuistore.model.BookDO;
 import com.fui.fuistore.service.BookService;
@@ -50,7 +51,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
-    public boolean updateBook(BookDO book, CreateOrUpdateBookDTO validator) {
+    public boolean updateBook(BookDO book, UpdateBookDTO validator) {
         book.setAuthor(validator.getAuthor());
         book.setTitle(validator.getTitle());
         book.setSummary(validator.getSummary());
